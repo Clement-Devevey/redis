@@ -1,0 +1,64 @@
+
+# Création des appels
+
+RPUSH appels "{
+ \"identifiant\": \"appel1\",
+  \"heure_appel\": \"17h42\",
+  \"numero_origine\": \"0102030405\",
+  \"statut\": \"Non affecté\",
+  \"durée\": \"00h00m00s\",
+  \"operateur\": \"\",
+  \"description\": \"description\"
+}"
+
+RPUSH appels "{
+ \"identifiant\": \"appel2\",
+  \"heure_appel\": \"10h42\",
+  \"numero_origine\": \"0542431411\",
+  \"statut\": \"Non pris en compte\",
+  \"durée\": \"00h00m00s\",
+  \"operateur\": \"\",
+  \"description\": \"description\"
+}"
+RPUSH appels "{
+ \"identifiant\": \"appel3\",
+  \"heure_appel\": \"10h42\",
+  \"numero_origine\": \"0542431411\",
+  \"statut\": \"en cours\",
+  \"durée\": \"00h01m20s\",
+  \"operateur\": \"operateur3\",
+  \"description\": \"description\"
+}"
+
+RPUSH appels "{
+ \"identifiant\": \"appel4\",
+  \"heure_appel\": \"19h40\",
+  \"numero_origine\": \"159753688\",
+  \"statut\": \"terminé\",
+  \"durée\": \"00h02m50s\",
+  \"operateur\": \"operateur1\",
+  \"description\": \"Urgence : recherche pelleteuse pour demain chantier 8h\"
+}"
+
+# Création des opérateurs
+
+RPUSH operateurs "{
+ \"identifiant\": \"operateur1\",
+  \"nom\": \"QUADRILATERE\",
+  \"prenom\": \"Yoann\"
+}"
+
+RPUSH operateurs "{
+ \"identifiant\": \"operateur2\",
+  \"nom\": \"BERNARD\",
+  \"prenom\": \"Bernard\"
+}"
+
+
+RPUSH operateurs "{
+ \"identifiant\": \"operateur3\",
+  \"nom\": \"MARTIN\",
+  \"prenom\": \"Martin\"
+}"
+
+
