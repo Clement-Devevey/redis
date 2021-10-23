@@ -1,7 +1,7 @@
 
 # Création des appels
 
-HSET operateurs appels1 "{ \"identifiant\": \"appel1\", \"heure_appel\": \"17h42\", \"numero_origine\": \"0102030405\", \"statut\": \"Non affecté\", \"durée\": \"00h00m00s\", \"operateur\": \"\", \"description\": \"description\" }"
+HSET appels appel1 "{ \"identifiant\": \"appel1\", \"heure_appel\": \"17h42\", \"numero_origine\": \"0102030405\", \"statut\": \"Non affecté\", \"durée\": \"00h00m00s\", \"operateur\": \"\", \"description\": \"description\" }"
 
 HSET appels appel2 "{ \"identifiant\": \"appel1\", \"heure_appel\": \"17h42\", \"numero_origine\": \"0102030405\", \"statut\": \"Non affecté\", \"durée\": \"00h00m00s\", \"operateur\": \"\", \"description\": \"description\" }"
 
