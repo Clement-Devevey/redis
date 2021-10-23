@@ -3,9 +3,7 @@
 - Using tkinter as graphical library
 - Using redis as db
 ## You can :
-- Create a call
-- Check others calls (those who are not already affected)
-- Affect a call to someone by choosing the operator
-
-## TODO :
-- Print all calls affected by operator.
+- Create a call (by filling out the form)
+- Check others calls (those who are not already affected) and get more datas by choosing one in the combobox.
+- Affect a call to someone by choosing the operator. You need to select one operator and one call.
+- Print all calls by operator.
