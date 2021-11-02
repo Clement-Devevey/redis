@@ -5,7 +5,7 @@
 
 ## Setup
 - Use commandes.txt to create at least operators.
-- Open py file --> line 77 --> choose the right number
+- Open py file --> line 77 --> choose the right number according your database
 - Start py file !
 ## You can :
 - Create a call (by filling out the form)  ID must not exist
