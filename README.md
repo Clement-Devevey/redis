@@ -14,3 +14,6 @@
 - Print all calls by operator.
 - 
 ![alt text](https://github.com/Clement-Devevey/redis/blob/master/call_center_im.png?raw=true)
+
+## More
+- Using mostly hashes <-> JSON
